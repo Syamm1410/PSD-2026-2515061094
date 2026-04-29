@@ -73,4 +73,11 @@ Perhitungan waktu eksekusi:
 
 Terakhir ada pemanggilan fungsi _main_ untuk menjalankan fungsi utama:
 - __if name == "main":__ untuk memastikan program berjalan, dan
-- __main()__ untuk memanggil fungsi utama agar program berjalan
+- __main()__ untuk memanggil fungsi utama agar program berjalan<br>
+
+Output:<br>
+<img width="462" height="473" alt="Screenshot (653)" src="https://github.com/user-attachments/assets/f9813920-1679-4ac8-85a0-6ed30ebe14cb" /><br>
+Seperti yang terlihat, pertama kita harus menginputkan jumlah mahasiswa yang ada. Sebagai contoh saya memasukkan jumlah sebanyak 4. Kemudian dilanjut dengan memasukkan nama dan nilai dari mahasiswa, jika kesalahan input maka akan mengulang input kembali di tempat yang sebelumnya salah input. Setelah semua diinputkan, akan ada hasil berbentuk list yang berisi data yang masih acak, data yang telah diurutkan, serta data yang diurutkan berkebalikan dengan fungsi utama. Ditambahkan juga perhitungan waktu dari proses insertion sort ini. Data berkebalikan dibuat untuk memudahkan mengetahui data yang diurutkan secara _ascending_ maupun _descending_<br>
+
+Link YouTube: https://youtu.be/qBHUfsfEPUI
+

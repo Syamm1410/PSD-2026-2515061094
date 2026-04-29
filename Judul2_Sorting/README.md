@@ -64,13 +64,13 @@ Data Sebaliknya (Ascending dan Descending di dalam satu output yang sama):<br>
 - Kemudian loop __for__ hanya berbeda dibagian pemanggilan variabel saja yang sebelumnya __(data, start=1):__ menjadi __(data_kebalikan, start=1):__
 - __print__ masih sama<br>
 
-Perhitungan waktu eksekusi:<br>
+Perhitungan waktu eksekusi:
 - Karena sudah kita import modul Time di line pertama, selanjutnya kita masuk ke fungsinya
 - __start = time.time()__ untuk mencatat waktu sebelum sorting dilakukan
 - Dilanjut dengan pemanggilan fungsi __insertion_sort(data, n)__ agar bisa menghitung waktu sorting
 - __end =  time.time()__ untuk mencatat waktu setelah sorting dilakukan
 - Kemudian __print(f"\nWaktu eksekusi: {end - start} detik")__ untuk menampilkan hasil eksekusi waktu dengan menghitung selisih _end - start_<br>
 
-Terakhir ada pemanggilan fungsi _main_ untuk menjalankan fungsi utama:<br>
+Terakhir ada pemanggilan fungsi _main_ untuk menjalankan fungsi utama:
 - __if name == "main":__ untuk memastikan program berjalan, dan
 - __main()__ untuk memanggil fungsi utama agar program berjalan

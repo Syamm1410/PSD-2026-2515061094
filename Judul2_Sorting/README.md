@@ -29,7 +29,7 @@ Baik, akan kita jabarkan.
 - Kemudian ada variabel __data = []__ untuk membuat list kosong yang nanti akan diinputkan oleh user
 - Lalu __print__ untuk menampilkan instruksi yang bertuliskan seperti kode di atas<br>
 
-Selanjutnya masuk ke Looping Pertama:<br>
+Selanjutnya masuk ke Looping Pertama:
 - Masuk ke looping __for i in range(n):__ untuk looping sesuai jumlah n
 - Dilanjut dengan __while True:__ yang di mana selama program berjalan akan terus berjalan sampai program selesai
 - Variabel __nama = input(f")__ untuk meminta user menginputkan data berupa teks
@@ -37,7 +37,6 @@ Selanjutnya masuk ke Looping Pertama:<br>
 - __else:__ berarti jika kondisi di atas tidak terpenui, maka akan menampilkan instruksi berupa teks seperti yang tertera di kode.<br>
 
 Kita lanjut ke Looping Kedua:
-
 - Beberapa kode sama seperti __while__ dan __try__, jadi lanjut ke kode berikutnya
 - Variabel __nilai = int(input(f"))__ untuk meminta user menginputkan data berupa angka
 - Dilanjut dengan __data.apppend__ untuk menambahkan inputan ke dalam variabel data berupa list yang sebelumnya kosong. Data diisi dengan _nama_ dan _nilai_.
@@ -49,14 +48,14 @@ Kemudian masuk ke tahap pemanggilan fungsi untuk menampilkan output<br>
 <img width="474" height="340" alt="Screenshot (652)" src="https://github.com/user-attachments/assets/5ed4699d-1182-44ba-bb73-a14a8299af37" /><br>
 Selanjutnya ada beberapa penambahan yang saya ambil dari materi minggu lalu yaitu list agar hasil lebih rapi<br>
 
-Data sebelum diurutkan:<br>
+Data sebelum diurutkan:
 - __print("\nData sebelum diurutkan: ")__ untuk menampilkan output string
 - Kemudian ada fungsi loop __for i, mhs in enumerate(data, start=1):__ untuk mengambil index dan isi data yang di mulai dari 1
 - Lalu __print(f"{i}__ agar bisa memasukkan variabel i ke dalam string
 - __{mhs[0]}__ = data _nama_
 - __{mhs[1]}__ = data _nilai_<br>
 
-Data setelah diurutkan:<br>
+Data setelah diurutkan:
 - __print__ seperti sebelumnya
 - Loop masih sama hanya berbeda di pemanggilan fungsinya saja yaitu __insertion_sort(data, n)__<br>
 

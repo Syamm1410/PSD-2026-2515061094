@@ -1,1 +1,2 @@
-
+Judul Program : Pengurutan Data Mahasiswa Berbasis Insertion Sort<br>
+Deskripsi Singkat : Jadi, pengurutan data ini saya ambil dari "Insertion Sort" yang di improvisasi dengan materi minggu lalu yaitu bagian "List", dan saya tambahkan juga "Time" untuk mencatat waktu eksekusinya. Di dalam sistem ini ada data mahasiswa berupa nama dan nilai, di mana ketika fungsi insertion sort dijalankan akan muncul nama dan nilai berdasarkan insertion sort dan berbentuk list.

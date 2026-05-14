@@ -1,7 +1,6 @@
 Judul Program : Antrian Playlist Lagu<br>
 
-Deskripsi Singkat : Dalam program ini, saya membuat "Antrian Playlist Lagu" menggunakan struktur code QueueLinkedList karena agar tidak memiliki batasan dalam penambahan lagu.
-Lebih lengkapnya terdapat pada penjelasan berikut.<br>
+Deskripsi Singkat : Dalam program ini, saya membuat "Antrian Playlist Lagu" menggunakan struktur code QueueLinkedList dengan prinsip FIFO (First In First Out) yang berarti yang pertama masuk akan pertama kali keluar juga. Selain itu, menggunakan QueueuLinkedList juga karena agar tidak memiliki batasan dalam penambahan lagu. Lebih lengkapnya terdapat pada penjelasan berikut.<br>
 
 Source Code : <br>
 <img width="259" height="87" alt="Screenshot (795)" src="https://github.com/user-attachments/assets/3c74fcae-eac4-4f9d-9805-5f37ac1c0e77" />
@@ -90,4 +89,24 @@ Baik, berikut penjelasannya:<br>
 - `elif pilih == 5:` dijalankan jika user memilih keluar.
 - `print("Playlist ditutup")` digunakan untuk menampilkan pesan bahwa program selesai.
 - `else:` dijalankan jika pilihan menu tidak tersedia.
-- `print("Menu tidak tersedia")` digunakan untuk menampilkan pesan kesalahan pilihan menu.
+- `print("Menu tidak tersedia")` digunakan untuk menampilkan pesan kesalahan pilihan menu.<br>
+
+Output : <br>
+Pilih Menu = 1 <br>
+<img width="274" height="297" alt="pilih 1" src="https://github.com/user-attachments/assets/e11c2974-0acc-4502-9ca9-769cf0ceca9b" /><br>
+Yang pertama adalah jika user memilih 1, maka program akan meminta user menginputkan judul lagu kemudian hasilnya akan muncul bahwa lagu tersebut telah ditambahkan ke antrian dengan fungsi `enqueue`. Tidak ada batasan dalam penambahan lagu ke dalam playlist.<br>
+
+Pilih Menu = 4 <br>
+<img width="284" height="184" alt="pilih 4" src="https://github.com/user-attachments/assets/6de379c4-0139-46ad-ae7d-18983c930aa7" /><br>
+Selanjutnya, jika user ingin melihat semua playlist yang ada, maka dengan memilih menu ke-4 akan tampil seluruh platlist sesuai urutan masuk dengan fungsi `display`.<br>
+
+Pilih Menu = 2, 3, dan 5 <br>
+<img width="432" height="399" alt="pilih 2, 3, dan 5" src="https://github.com/user-attachments/assets/63eb60f1-1e5f-496a-b055-5d4784cd2c28" /><br>
+- Untuk memutar lagu, user cukup input pilihan ke-2 maka lagu paling atas/depan akan terputar dengan dengan fungsi `dequeue`.
+- Untuk melihat lagu yang akan diputar selanjutnya, user cukup menginputkan pilihan ke-3 maka daftar lagu selanjutnya akan muncul dengan fungsi `peek`.
+- Untuk keluar dari program, user cukup menginputkan pilihan ke-5 maka program akan selesai karena tidak ada fungsi di pilihan ke-5 dan hanya ada output berupa tulisan bahwa playlist telah ditutup yang dibuat mengunakan `print("str")`.
+<br>
+
+Link YouTube: https://youtu.be/iYqauUENj9s?si=OTWCokMyZTSXDCug
+
+
